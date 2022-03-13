@@ -1,5 +1,7 @@
 package swordOffer;
 
+import java.util.ArrayList;
+
 /**
  *  定义一个函数，输入一个链表的头节点，反转该链表并输出反转后链表的头节点。
  *
@@ -26,6 +28,9 @@ public class reverseLinkedList {
     public ListNode reverseList(ListNode head) {
         ListNode a = null;
         ListNode b = null;
+        ArrayList<Integer> c = new ArrayList<>() ;
+        Integer[] d;
+        d = c.toArray(new Integer[0]);
 
         while (head!=null){
             a = head;
@@ -33,6 +38,9 @@ public class reverseLinkedList {
             a.next = b;
             b = a;
         }
+
         return b;
+
+
     }
 }
