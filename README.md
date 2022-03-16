@@ -1,3 +1,3 @@
 # CodingPractice
-每日学习记录
-## 1.algorithm 算法题记录 
+编程练习
+## 1.algorithm 初级算法解题 
