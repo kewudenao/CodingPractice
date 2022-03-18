@@ -24,7 +24,6 @@ class levelOrder{
         if(root==null) return new int[0];
         ArrayList<Integer> returnList = new ArrayList<>();
         LinkedList<TreeNode> treeList = new LinkedList(){{add(root);}};
-
         while(!treeList.isEmpty()){
             TreeNode node = treeList.poll();
             returnList.add(node.val);
