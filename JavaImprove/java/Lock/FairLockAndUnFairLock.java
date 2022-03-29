@@ -9,7 +9,7 @@ import java.util.concurrent.locks.ReentrantLock;
 class Phone{
 	public synchronized void sendTest() throws Exception{
 		System.out.println(Thread.currentThread().getId()+"测试1asdfasdfasdf");
-		new TestLock().methodOne();
+//		new TestLock().methodOne();
 	}
 }
 public class FairLockAndUnFairLock {
