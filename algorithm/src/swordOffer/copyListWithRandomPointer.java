@@ -8,7 +8,7 @@ import java.util.HashMap;
 
 
 public class copyListWithRandomPointer {
-    class Node {
+    private class Node {
         int val;
         Node next;
         Node random;
