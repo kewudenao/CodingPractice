@@ -1,5 +1,7 @@
 package swordOffer;
 
+import java.util.ArrayList;
+
 public class twoSum {
     //自己的方法
     public int[] methodOne(int[] nums, int target) {
@@ -11,6 +13,7 @@ public class twoSum {
                 return new int[]{nums[i],nums[j]};
             j--;
         }
+
         return new int[]{};
     }
     public int[] methodTwo(int[] nums, int target) {

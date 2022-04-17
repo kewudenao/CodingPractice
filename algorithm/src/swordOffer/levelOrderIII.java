@@ -23,6 +23,7 @@ public class levelOrderIII {
      *       层数计数器+1
      *       将集合A中元素加入返回集合R中
      */
+
     public List<List<Integer>> methodOne(TreeNode root) {
         if(root == null) return new ArrayList();
         LinkedList<TreeNode> list = new LinkedList(){{add(root);}};
