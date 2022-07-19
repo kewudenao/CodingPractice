@@ -65,4 +65,14 @@ public class StreamDemo {
 		}
 		return list.stream();
 	}
+
+	public static void main(String[] args) {
+		demo a = new demo("1");
+		demo b = new demo();
+		List<demo> demos = new ArrayList<demo>();
+		demos.add(a);
+		demos.add(b);
+		List<String> collect = demos.stream().map(o -> o.getA()).collect(Collectors.toList());
+		System.out.println(collect);
+	}
 }
